@@ -8,8 +8,6 @@ An array of Booleans.
 At a memory level, arrays are stored in contiguous locations i.e. all the elements are stored in adjacent memory locations and in order.
 ![alt text](image.png)
 
-leet code : 1486
-
 Types of Indexing
 
 1. Zero-based Indexing: The index of the array starts from 0. This type of indexing is the most common type and seen in languages such as Java, C, C++, etc.

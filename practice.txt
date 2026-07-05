@@ -3,3 +3,4 @@
 3.string upper to lower - by two methods 
 4. anagram 
 5. reverse 
+6. permutation of a string 
