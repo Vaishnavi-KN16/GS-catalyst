@@ -1,0 +1,5 @@
+1.big O and ascii
+2.leet code 1486 
+3.string upper to lower - by two methods 
+4. anagram 
+5. reverse 
