@@ -100,3 +100,26 @@ lists
 dictionaries
 functions
 classes
+
+Why does Python store references instead of values?
+
+Python variables store references (addresses) to objects, not the actual values. This lets Python treat everything as an object, making it easy to support dynamic typing (different data types), automatic memory management, and efficient sharing of objects without unnecessary copying.
+
+
+Insertion, Deletion, and Updation
+
+
+For Insertion the provided input should be the following:
+Array, the position at which the operation must be performed and the element to be inserted.
+Note that for a 0-based indexed array, the index at which the insertion must be performed will be (position - 1).
+
+
+Another point to note is for this to work, the array must have an empty space in order to perform the insert. This is to prevent an issue that commonly occurs in C-like languages called ArrayIndexOutOfBounds.
+
+
+ Read about it here: https://www.educative.io/edpresso/what-is-the-arrayindexoutofbounds-exception-in-java#:~:text=The%20ArrayIndexOutOfBounds%20exception%20is%20thrown,for%20this%20error%20during%20compilation.
+
+ ( in the above article ,to handle the exceptions even the try catch statement is explained in a very simple manner - refer that too )
+
+
+Let's look at the algorithm for this. In the algorithm, we make the assumption position N is empty.
