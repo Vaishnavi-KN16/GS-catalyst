@@ -123,3 +123,41 @@ Another point to note is for this to work, the array must have an empty space in
 
 
 Let's look at the algorithm for this. In the algorithm, we make the assumption position N is empty.
+
+Insertion of an Element in the array 
+
+![alt text](image-2.png)
+
+Deletion of an element in the array  
+
+For deletion, the input could be either of the following:
+Array and the position at which deletion is to be performed.
+Array and the element which is to be deleted.
+Let's look at the algorithm for both.
+
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+For updates, the input could be either of the following:
+
+Array, updated value, and the position at which deletion is to be performed.
+
+Array, updated value, and the element which is to be deleted.
+
+Let's look at the algorithm for both.
+
+![alt text](image-5.png)
+
+
+Multidimentional arrays 
+
+Multidimensional arrays can be visualized as matrices.
+Let's consider a 2-D array:
+
+![alt text](image-6.png)
+
+
+
+
