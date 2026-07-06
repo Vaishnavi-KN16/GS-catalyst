@@ -17,3 +17,86 @@ Types of Indexing
 why is array indexing starting from zero ? 
 
 https://developerinsider.co/why-does-the-indexing-of-array-start-with-zero-in-c/
+
+
+Common Array Operations
+
+Some commonly used array operations are:
+
+1.Traversing: This is visiting each element in the array in order.
+2.Insertion: An element can be inserted into the array at a specific index.
+3.Deletion: An element can be deleted from a specific index in an array.
+4.Updates: Update the value at a given index.
+5.Sorting: The array can be reordered based on the values.
+6.Searching: Find the index of an element given a value.
+
+//Traversing an array 
+
+![alt text](image-1.png)
+
+In the above algorithm, N is the length of the array. Most languages will provide an interface to get the length of an array. For example, in Java, array.length (length property of the array class) will give you the length. In python, the len(list) function will give you the length of the list.
+Note: Python lists are not pure arrays because they allow heterogeneous data types in them and don't always store elements in contiguous locations
+
+lists in python store heterogeneous values why ? 
+we dont define a variable type while decalring a variable in python 
+like x = 10 
+where the list has ( 12, -3, 76 , 9.4)
+this all are stored as references like 
+
+Address 5000 -> Integer 10
+
+Address 6000 -> Integer 20
+
+Address 7000 -> Integer 30
+
+          List
+
+      +-------+
+Index | Ref   |
+------+-------+
+0     |5000| -----> Integer object (10)
+1     |6000| -----> Integer object (20)
+2     |7000| -----> Integer object (30)
+      +-------+
+
+lst = [10, "hello", 3.14]
+
+5000 -> Integer object
+
+6000 -> String object
+
+7000 -> Float object
+
+          List
+
+      +-------+
+0 --->|5000| ---------> Integer 10
+
+1 --->|6000| ---------> String "hello"
+
+2 --->|7000| ---------> Float 3.14
+      +-------+
+Every thing is a object in python 
+even a variable declared 
+
+
+why cant C arrays or java arrays can do this ?
+int arr[3];
+1000 : int
+1004 : int
+1008 : int
+because this is how they are declared 
+
+
+
+But why is python like this ? 
+
+In Python, everything is an object:
+
+integers
+floats
+strings
+lists
+dictionaries
+functions
+classes
